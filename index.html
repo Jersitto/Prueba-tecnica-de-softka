@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge De Preguntas y Respuestas</title>
+</head>
+
+<body>
+
+
+    <h5 id="categoria"> Categoria </h5>
+
+    <h3 id="pregunta"> Preguntas </h3>
+
+
+    <form id="formulario">
+
+        <button id="respuesta0" onclick="validarRespuestas(this.getAttribute('data-answer'))"> Respuesta 1</button>
+        <button id="respuesta1" onclick="validarRespuestas(this.getAttribute('data-answer'))"> Respuesta 2</button>
+        <button id="respuesta2" onclick="validarRespuestas(this.getAttribute('data-answer'))"> Respuesta 3</button>
+        <button id="respuesta3" onclick="validarRespuestas(this.getAttribute('data-answer'))"> Respuesta 4</button>
+        <input id="salida" type="button" value="Finaizar/Reiniciar Juego" onclick="location.reload()" />
+    </form>
+
+    <script src="base_preguntas.js"></script>
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>
